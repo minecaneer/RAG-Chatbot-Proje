@@ -30,7 +30,7 @@ def create_and_persist_vector_db():
     lung_data = load_dataset("Gaborandi/Lung_Cancer_pubmed_abstracts", split="train") 
     combined_data = concatenate_datasets([breast_data, lung_data])
     df = combined_data.to_pandas()
-    df = df.sample(n=1000, random_state=42) # 1000 satırla sınırla
+    df = df.sample(n=300, random_state=42) # 1000 satırla sınırla
     df = df[['abstract', 'title']].dropna() 
 
     # 2. Chunking ve Dokümanlara Çevirme
