@@ -1,0 +1,10 @@
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+google-genai
+chromadb
+datasets
+pandas
+streamlit
+pypdf # Eğer veri yüklemesi için kullanıldıysa
