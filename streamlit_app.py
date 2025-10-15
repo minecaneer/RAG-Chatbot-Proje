@@ -1,5 +1,5 @@
 # HÜCRE 8: streamlit_app.py dosyasını oluşturma (KURALA UYGUN VE SON VERSİYON)
-%%writefile streamlit_app.py
+
 import streamlit as st
 import os
 import pandas as pd
